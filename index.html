@@ -1,23 +1,38 @@
 <!doctype html>
 <html>
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://cdn.tailwindcss.com"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
+
 <body>
-  <header><h1 class="text-center text-5xl mt-5">
-    WellCome To My 
-    <span class="font-semibold text-purple-600">Bapp-Er-Bank</span>!!!</h1></header>
+    <header>
+        <h1 class="text-center text-5xl mt-5">
+            WellCome To My
+            <span class="font-semibold text-purple-600">Bapp-Er-Bank</span>!!!
+        </h1>
+    </header>
     <main>
         <section class="bg-blue-100 mt-12  w-9/12 p-10 mx-auto  ">
             <div>
                 <h3 class="text-3xl mb-5 font-medium">Please Login</h3>
-                <input class="block w-9/12 p-3 mb-4"  type="email" name="" id="" placeholder="please enter your email">
-                <input class="block w-9/12 p-3 mb-4" type="password" name="" id="" placeholder="please enter your password">
-                <button class="bg-amber-600 px-4 py-2 rounded-lg text-white hover:bg-sky-700">submit</button>
+                <input class="block w-9/12 p-3 mb-4" type="email" name="" id="user-email"
+                    placeholder="please enter your email">
+                <input class="block w-9/12 p-3 mb-4" type="password" name="" id="user-password"
+                    placeholder="please enter your password">
+                <button id="btn-submit"
+                    class="bg-amber-600 px-4 py-2 rounded-lg text-white hover:bg-sky-700">submit</button>
             </div>
         </section>
     </main>
+    <script src="js/login.js"></script>
+    <!-- <script>
+    document.getElementById('btn-submit').addEventListener('click', function () {
+        console.log('submit button clicked');
+    })
+    </script> -->
 </body>
+
 </html>
