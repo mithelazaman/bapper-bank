@@ -25,7 +25,7 @@
                 </div>
                 <div class="bg-red-400 p-8 rounded-xl">
                     <h4 class="text-3xl">Withdrow</h4>
-                    <h4 class="text-5xl">$00</h4>
+                    <h4 class="text-5xl">$<span id="withdraw-total">00</span></h4>
                 </div>
                 <div class="bg-violet-400 p-8 rounded-xl">
                     <h4 class="text-3xl">Diposite</h4>
@@ -47,10 +47,9 @@
                 </div>
                 <div class="bg-sky-300 p-8 rounded-xl">
                     <h4 class="text-3xl mb-4 font-semibold text-white">Please Withdrow</h4>
-                    <input class="w-9/12 block p-3 mb-4" type="text" name="" id=""
+                    <input class="w-9/12 block p-3 mb-4" type="text" name="" id="withdraw-field"
                         placeholder="$Ammount you want to withdrow">
-                    <button
-                        class="bg-amber-600 px-4 py-2 rounded-lg text-white font-medium hover:bg-yellow-400">Withdrow</button>
+                    <button id="withdraw-button" class="bg-amber-600 px-4 py-2 rounded-lg text-white font-medium hover:bg-yellow-400">Withdrow</button>
 
                 </div>
 
@@ -61,6 +60,7 @@
 
     </main>
     <script src="js/deposite.js"></script>
+    <script src="js/withdraw.js"></script>
 
 </body>
 
